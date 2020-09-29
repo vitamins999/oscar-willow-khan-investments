@@ -23,7 +23,7 @@ module.exports = {
         108: '27rem',
       },
       backgroundImage: (theme) => ({
-        'hero-image': "url('/hero.jpg')",
+        'hero-image': "url('/hero.webp')",
       }),
     },
   },
