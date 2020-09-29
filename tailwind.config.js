@@ -3,7 +3,7 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
     extend: {
       fontFamily: {
@@ -23,7 +23,7 @@ module.exports = {
         108: '27rem',
       },
       backgroundImage: (theme) => ({
-        'hero-image': "url('/hero.webp')",
+        'hero-image': "url('/hero.jpg')",
       }),
     },
   },

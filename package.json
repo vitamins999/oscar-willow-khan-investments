@@ -16,6 +16,8 @@
     "react-scroll": "^1.8.1"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.0.1",
     "tailwindcss": "^1.8.10",
     "postcss-preset-env": "^6.7.0"
   }
