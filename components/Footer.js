@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className='text-gray-700 body-font relative bg-white'>
       <div className='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
         <p className='flex title-font font-medium items-center md:justify-start justify-center text-gray-900'>
-          <img className='w-8' src='/favicon-32x32.png' alt='logo' />
+          <img className='w-8' src='/favicon.png' alt='logo' />
           <span className='ml-3 text-md tracking-wide'>
             Oscar, Willow & Khan
           </span>

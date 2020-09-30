@@ -59,7 +59,7 @@ const NavBar = () => {
         }`}
       >
         <p className='flex title-font font-medium items-center text-gray-300 mb-4 md:mb-0'>
-          <img className='w-8' src='/favicon-32x32.png' alt='logo' />
+          <img className='w-8' src='/favicon.png' alt='logo' />
           <span className='ml-3 text-lg sm:text-xl tracking-wide'>
             Oscar, Willow & Khan
           </span>
