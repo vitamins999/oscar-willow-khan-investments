@@ -38,6 +38,8 @@ const Contact = () => {
             allowFullScreen=''
             aria-hidden='false'
             tabIndex='0'
+            loading='lazy'
+            title='Google Maps Shop Location'
           ></iframe>
 
           <div className='bg-white relative flex flex-wrap py-6'>

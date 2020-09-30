@@ -2,12 +2,12 @@ const Footer = () => {
   return (
     <footer className='text-gray-700 body-font relative bg-white'>
       <div className='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
-        <a className='flex title-font font-medium items-center md:justify-start justify-center text-gray-900'>
+        <p className='flex title-font font-medium items-center md:justify-start justify-center text-gray-900'>
           <img className='w-8' src='/favicon.ico' alt='logo' />
           <span className='ml-3 text-md tracking-wide'>
             Oscar, Willow & Khan
           </span>
-        </a>
+        </p>
         <p className='text-xs sm:text-sm text-gray-900 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-700 sm:py-2 sm:mt-0 mt-4 text-center'>
           © 2020 Oscar, Willow & Khan Investments —{' '}
           <span>Model Photos by </span>

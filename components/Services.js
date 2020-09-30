@@ -18,12 +18,12 @@ const Services = () => {
                 src='/investment1.webp'
                 alt='content'
               />
-              <h3 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
+              <h2 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
                 ISA
-              </h3>
-              <h2 className='text-lg text-gray-900 font-medium title-font mb-4'>
-                ISA & Junior ISA
               </h2>
+              <h3 className='text-lg text-gray-900 font-medium title-font mb-4'>
+                ISA & Junior ISA
+              </h3>
               <p className='leading-relaxed text-base mb-4'>
                 Tax-free interest payments, so you could get more for your
                 money.
@@ -42,12 +42,12 @@ const Services = () => {
                 src='/investment4.webp'
                 alt='content'
               />
-              <h3 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
+              <h2 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
                 Portfolios
-              </h3>
-              <h2 className='text-lg text-gray-900 font-medium title-font mb-4'>
-                Growth & Income Portfolios
               </h2>
+              <h3 className='text-lg text-gray-900 font-medium title-font mb-4'>
+                Growth & Income Portfolios
+              </h3>
               <p className='leading-relaxed text-base'>
                 A dual strategy for both capital appreciation and current
                 income, generated through dividends or interest payments, with a
@@ -63,12 +63,12 @@ const Services = () => {
                 src='/investment3.webp'
                 alt='content'
               />
-              <h3 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
+              <h2 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
                 Stockbroking
-              </h3>
-              <h2 className='text-lg text-gray-900 font-medium title-font mb-4'>
-                Discretionary Fund Management
               </h2>
+              <h3 className='text-lg text-gray-900 font-medium title-font mb-4'>
+                Discretionary Fund Management
+              </h3>
               <p className='leading-relaxed text-base'>
                 As your DFM (Discretionary Fund Manager), we manage an
                 investment portfolio on your behalf, taking into account how
@@ -84,12 +84,12 @@ const Services = () => {
                 src='/investment2.webp'
                 alt='content'
               />
-              <h3 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
+              <h2 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
                 Investments
-              </h3>
-              <h2 className='text-lg text-gray-900 font-medium title-font mb-4'>
-                Offshore Investments
               </h2>
+              <h3 className='text-lg text-gray-900 font-medium title-font mb-4'>
+                Offshore Investments
+              </h3>
               <p className='leading-relaxed text-base mb-4'>
                 We also offer funds domiciled in offshore countries, to allow
                 for tax-free income. This enables the fund to reinvest any

@@ -28,7 +28,7 @@ const Tech = () => {
           </div>
         </div>
         <div className='flex mx-auto flex-wrap mb-20'>
-          <a
+          <button
             onClick={() => setStep(1)}
             className={`transition duration-150 ease-in-out cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t ${
               step === 1
@@ -48,8 +48,8 @@ const Tech = () => {
               <path d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'></path>
             </svg>
             STEP 1
-          </a>
-          <a
+          </button>
+          <button
             onClick={() => setStep(2)}
             className={`transition duration-150 ease-in-out cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t ${
               step === 2
@@ -69,8 +69,8 @@ const Tech = () => {
               <path d='M22 12h-4l-3 9L9 3l-3 9H2'></path>
             </svg>
             STEP 2
-          </a>
-          <a
+          </button>
+          <button
             onClick={() => setStep(3)}
             className={`transition duration-150 ease-in-out cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t ${
               step === 3
@@ -91,8 +91,8 @@ const Tech = () => {
               <path d='M12 22V8M5 12H2a10 10 0 0020 0h-3'></path>
             </svg>
             STEP 3
-          </a>
-          <a
+          </button>
+          <button
             onClick={() => setStep(4)}
             className={`transition duration-150 ease-in-out cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t ${
               step === 4
@@ -113,7 +113,7 @@ const Tech = () => {
               <circle cx='12' cy='7' r='4'></circle>
             </svg>
             STEP 4
-          </a>
+          </button>
         </div>
         {step === 1 && (
           <motion.div variants={stepVariant} initial='hide' animate='show'>
@@ -191,8 +191,8 @@ const Tech = () => {
                 These changes and future predictions are then monitored, through
                 further A/B testing, to ascertain whether it is more financially
                 beneficial to re-invest the money in another business, based on
-                that business's model, or to cash out at the predicted highest
-                point and put that money straight in your pocket.
+                that business's model, or cash out at the predicted high point
+                and put that money straight in your pocket.
               </p>
             </div>
           </motion.div>

@@ -58,12 +58,12 @@ const NavBar = () => {
           isScrolling ? 'md:bg-normal-bg' : null
         }`}
       >
-        <a className='flex title-font font-medium items-center text-gray-300 mb-4 md:mb-0'>
-          <img className='w-8' src='/favicon.ico' alt='logo' />
+        <p className='flex title-font font-medium items-center text-gray-300 mb-4 md:mb-0'>
+          <img className='w-8' src='/favicon-32x32.png' alt='logo' />
           <span className='ml-3 text-lg sm:text-xl tracking-wide'>
             Oscar, Willow & Khan
           </span>
-        </a>
+        </p>
         <nav className='md:ml-auto flex flex-wrap items-center justify-center text-sm sm:text-base'>
           <Link
             to='home'
