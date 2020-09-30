@@ -32,7 +32,7 @@ const Tech = () => {
             onClick={() => setStep(1)}
             className={`transition duration-150 ease-in-out cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t ${
               step === 1
-                ? 'border-indigo-500 text-indigo-500 bg-gray-100'
+                ? 'border-indigo-500 text-indigo-700 bg-gray-100'
                 : 'hover:text-gray-600'
             }`}
           >
@@ -53,7 +53,7 @@ const Tech = () => {
             onClick={() => setStep(2)}
             className={`transition duration-150 ease-in-out cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t ${
               step === 2
-                ? 'border-indigo-500 text-indigo-500 bg-gray-100'
+                ? 'border-indigo-500 text-indigo-700 bg-gray-100'
                 : 'hover:text-gray-600'
             }`}
           >
@@ -74,7 +74,7 @@ const Tech = () => {
             onClick={() => setStep(3)}
             className={`transition duration-150 ease-in-out cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t ${
               step === 3
-                ? 'border-indigo-500 text-indigo-500 bg-gray-100'
+                ? 'border-indigo-500 text-indigo-700 bg-gray-100'
                 : 'hover:text-gray-600'
             }`}
           >
@@ -96,7 +96,7 @@ const Tech = () => {
             onClick={() => setStep(4)}
             className={`transition duration-150 ease-in-out cursor-pointer sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t ${
               step === 4
-                ? 'border-indigo-500 text-indigo-500 bg-gray-100'
+                ? 'border-indigo-500 text-indigo-700 bg-gray-100'
                 : 'hover:text-gray-600'
             }`}
           >

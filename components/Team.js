@@ -19,10 +19,10 @@ const Team = () => {
                 src='/team/man8.webp'
               />
               <div className='flex-grow'>
-                <h2 className='text-gray-900 title-font font-medium'>
+                <h2 className='text-gray-900 title-font font-semibold'>
                   Holden Oscar
                 </h2>
-                <p className='text-gray-500'>Partner & Founder</p>
+                <p className='text-gray-700'>Partner & Founder</p>
               </div>
             </div>
           </div>
@@ -34,10 +34,10 @@ const Team = () => {
                 src='/team/man1.webp'
               />
               <div className='flex-grow'>
-                <h2 className='text-gray-900 title-font font-medium'>
+                <h2 className='text-gray-900 title-font font-semibold'>
                   James Willow
                 </h2>
-                <p className='text-gray-500'>Partner & Founder</p>
+                <p className='text-gray-700'>Partner & Founder</p>
               </div>
             </div>
           </div>
@@ -49,10 +49,10 @@ const Team = () => {
                 src='/team/woman1.webp'
               />
               <div className='flex-grow'>
-                <h2 className='text-gray-900 title-font font-medium'>
+                <h2 className='text-gray-900 title-font font-semibold'>
                   Amanda Khan
                 </h2>
-                <p className='text-gray-500'>Partner & Founder</p>
+                <p className='text-gray-700'>Partner & Founder</p>
               </div>
             </div>
           </div>
@@ -64,10 +64,10 @@ const Team = () => {
                 src='/team/man3.webp'
               />
               <div className='flex-grow'>
-                <h2 className='text-gray-900 title-font font-medium'>
+                <h2 className='text-gray-900 title-font font-semibold'>
                   John Chase
                 </h2>
-                <p className='text-gray-500'>Senior Developer</p>
+                <p className='text-gray-700'>Senior Developer</p>
               </div>
             </div>
           </div>
@@ -79,10 +79,10 @@ const Team = () => {
                 src='/team/man5.webp'
               />
               <div className='flex-grow'>
-                <h2 className='text-gray-900 title-font font-medium'>
+                <h2 className='text-gray-900 title-font font-semibold'>
                   Bill Martins
                 </h2>
-                <p className='text-gray-500'>Software Engineer</p>
+                <p className='text-gray-700'>Software Engineer</p>
               </div>
             </div>
           </div>
@@ -94,10 +94,10 @@ const Team = () => {
                 src='/team/man6.webp'
               />
               <div className='flex-grow'>
-                <h2 className='text-gray-900 title-font font-medium'>
+                <h2 className='text-gray-900 title-font font-semibold'>
                   Boris Sykes
                 </h2>
-                <p className='text-gray-500'>Senior Data Analyst</p>
+                <p className='text-gray-700'>Senior Data Analyst</p>
               </div>
             </div>
           </div>
@@ -109,10 +109,10 @@ const Team = () => {
                 src='/team/woman2.webp'
               />
               <div className='flex-grow'>
-                <h2 className='text-gray-900 title-font font-medium'>
+                <h2 className='text-gray-900 title-font font-semibold'>
                   Cordelia Banks
                 </h2>
-                <p className='text-gray-500'>Senior Investment Consultant</p>
+                <p className='text-gray-700'>Senior Investment Consultant</p>
               </div>
             </div>
           </div>
@@ -124,10 +124,10 @@ const Team = () => {
                 src='/team/man2.webp'
               />
               <div className='flex-grow'>
-                <h2 className='text-gray-900 title-font font-medium'>
+                <h2 className='text-gray-900 title-font font-semibold'>
                   Bruce Williams
                 </h2>
-                <p className='text-gray-500'>Public Relations</p>
+                <p className='text-gray-700'>Public Relations</p>
               </div>
             </div>
           </div>
@@ -139,10 +139,10 @@ const Team = () => {
                 src='/team/man9.webp'
               />
               <div className='flex-grow'>
-                <h2 className='text-gray-900 title-font font-medium'>
+                <h2 className='text-gray-900 title-font font-semibold'>
                   Stephen Cohen
                 </h2>
-                <p className='text-gray-500'>Head of Marketing</p>
+                <p className='text-gray-700'>Head of Marketing</p>
               </div>
             </div>
           </div>

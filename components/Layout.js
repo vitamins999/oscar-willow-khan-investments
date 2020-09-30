@@ -26,6 +26,10 @@ const Layout = ({ children, title }) => {
         <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
         <meta name='msapplication-TileColor' content='#da532c' />
         <meta name='theme-color' content='#ffffff' />
+        <meta
+          name='Description'
+          content='Oscar, Willow & Khan Investments.  We specialise in using advanced AI and machine learning to invest in the stockmarket.'
+        />
         <title>Oscar, Willow & Khan</title>
       </Head>
       <NavBar />

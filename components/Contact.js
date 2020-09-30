@@ -58,7 +58,7 @@ const Contact = () => {
               </h2>
               <a
                 href='mailto:enquiries@owk-investments.com'
-                className='text-blue-500 leading-relaxed'
+                className='text-indigo-700 leading-relaxed hover:text-indigo-900'
               >
                 enquiries@owk-investments.com
               </a>
@@ -76,7 +76,7 @@ const Contact = () => {
           <h2 className='text-gray-900 text-lg mb-1 font-medium title-font'>
             Any questions?
           </h2>
-          <p className='leading-relaxed mb-5 text-gray-600'>
+          <p className='leading-relaxed mb-5 text-gray-700'>
             Interested in our services? Don't hesitate to call, email, use this
             contact form, or visit our offices.
           </p>
@@ -105,13 +105,13 @@ const Contact = () => {
           ></textarea>
           <button
             type='submit'
-            className='transition duration-150 ease-in-out text-gray-200 bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 hover:text-gray-100 rounded text-lg'
+            className='transition duration-150 ease-in-out text-gray-100 bg-blue-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-800 hover:text-white rounded text-lg'
           >
             Send
           </button>
           <p
             className={`text-xs mt-3 ${
-              !name ? 'text-gray-500' : 'text-indigo-700'
+              !name ? 'text-gray-700' : 'text-indigo-700'
             }`}
           >
             {!name

@@ -18,7 +18,7 @@ const Services = () => {
                 src='/investment1.webp'
                 alt='content'
               />
-              <h2 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
+              <h2 className='tracking-widest text-indigo-700 text-xs font-medium title-font'>
                 ISA
               </h2>
               <h3 className='text-lg text-gray-900 font-medium title-font mb-4'>
@@ -42,7 +42,7 @@ const Services = () => {
                 src='/investment4.webp'
                 alt='content'
               />
-              <h2 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
+              <h2 className='tracking-widest text-indigo-700 text-xs font-medium title-font'>
                 Portfolios
               </h2>
               <h3 className='text-lg text-gray-900 font-medium title-font mb-4'>
@@ -63,7 +63,7 @@ const Services = () => {
                 src='/investment3.webp'
                 alt='content'
               />
-              <h2 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
+              <h2 className='tracking-widest text-indigo-700 text-xs font-medium title-font'>
                 Stockbroking
               </h2>
               <h3 className='text-lg text-gray-900 font-medium title-font mb-4'>
@@ -84,7 +84,7 @@ const Services = () => {
                 src='/investment2.webp'
                 alt='content'
               />
-              <h2 className='tracking-widest text-indigo-500 text-xs font-medium title-font'>
+              <h2 className='tracking-widest text-indigo-700 text-xs font-medium title-font'>
                 Investments
               </h2>
               <h3 className='text-lg text-gray-900 font-medium title-font mb-4'>
