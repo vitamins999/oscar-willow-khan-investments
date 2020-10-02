@@ -16,7 +16,7 @@ const Testimonials = () => {
               <img
                 alt='testimonial'
                 className='w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100'
-                src='/team/woman3.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639171/oscar-willow-khan/team/woman3_y1ikp5.webp'
               />
               <p className='leading-relaxed'>
                 Needless to say I am extremely satisfied with the results. I
@@ -37,7 +37,7 @@ const Testimonials = () => {
               <img
                 alt='testimonial'
                 className='w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100'
-                src='/team/man5.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man5_hkt1jt.webp'
               />
               <p className='leading-relaxed'>
                 I would like to personally thank you for your outstanding
@@ -58,7 +58,7 @@ const Testimonials = () => {
               <img
                 alt='testimonial'
                 className='w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100'
-                src='/team/man4.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man4_jbnvos.webp'
               />
               <p className='leading-relaxed'>
                 I am so pleased with this product. Since I invested in Oscar,

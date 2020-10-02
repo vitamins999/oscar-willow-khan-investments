@@ -15,7 +15,7 @@ const Services = () => {
             <div className='bg-gray-100 p-6 rounded-lg'>
               <img
                 className='h-40 rounded w-full object-cover object-center mb-6'
-                src='/investment1.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/investment1_ryxlck.webp'
                 alt='content'
               />
               <h2 className='tracking-widest text-indigo-700 text-xs font-medium title-font'>
@@ -39,7 +39,7 @@ const Services = () => {
             <div className='bg-gray-100 p-6 rounded-lg'>
               <img
                 className='h-40 rounded w-full object-cover object-center mb-6'
-                src='/investment4.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/investment4_lmhppo.webp'
                 alt='content'
               />
               <h2 className='tracking-widest text-indigo-700 text-xs font-medium title-font'>
@@ -60,7 +60,7 @@ const Services = () => {
             <div className='bg-gray-100 p-6 rounded-lg'>
               <img
                 className='h-40 rounded w-full object-cover object-center mb-6'
-                src='/investment3.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/investment3_txbaho.webp'
                 alt='content'
               />
               <h2 className='tracking-widest text-indigo-700 text-xs font-medium title-font'>
@@ -81,7 +81,7 @@ const Services = () => {
             <div className='bg-gray-100 p-6 rounded-lg'>
               <img
                 className='h-40 rounded w-full object-cover object-center mb-6'
-                src='/investment2.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/investment2_r2fnj7.webp'
                 alt='content'
               />
               <h2 className='tracking-widest text-indigo-700 text-xs font-medium title-font'>

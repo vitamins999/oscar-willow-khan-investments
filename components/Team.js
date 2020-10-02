@@ -16,7 +16,7 @@ const Team = () => {
               <img
                 alt='team'
                 className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='/team/man8.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639171/oscar-willow-khan/team/man8_txp9o0.webp'
               />
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
@@ -31,7 +31,7 @@ const Team = () => {
               <img
                 alt='team'
                 className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='/team/man1.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man1_p6i683.webp'
               />
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
@@ -46,7 +46,7 @@ const Team = () => {
               <img
                 alt='team'
                 className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='/team/woman1.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639171/oscar-willow-khan/team/woman1_rhavx3.webp'
               />
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
@@ -61,7 +61,7 @@ const Team = () => {
               <img
                 alt='team'
                 className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='/team/man3.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man3_zj7huq.webp'
               />
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
@@ -76,7 +76,7 @@ const Team = () => {
               <img
                 alt='team'
                 className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='/team/man5.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man5_hkt1jt.webp'
               />
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
@@ -91,7 +91,7 @@ const Team = () => {
               <img
                 alt='team'
                 className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='/team/man6.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man6_iuamlc.webp'
               />
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
@@ -106,7 +106,7 @@ const Team = () => {
               <img
                 alt='team'
                 className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='/team/woman2.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639171/oscar-willow-khan/team/woman2_t3gq7g.webp'
               />
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
@@ -121,7 +121,7 @@ const Team = () => {
               <img
                 alt='team'
                 className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='/team/man2.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man2_ybj8ax.webp'
               />
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
@@ -136,7 +136,7 @@ const Team = () => {
               <img
                 alt='team'
                 className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='/team/man9.webp'
+                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639171/oscar-willow-khan/team/man9_ozzrcr.webp'
               />
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
