@@ -120,6 +120,7 @@ const Tech = () => {
             <img
               className='xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded'
               alt='hero'
+              loading='lazy'
               src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/tech1_jvu1s3.webp'
             />
             <div className='flex flex-col text-center w-full'>
