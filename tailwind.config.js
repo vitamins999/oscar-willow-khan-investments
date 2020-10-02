@@ -24,7 +24,7 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         'hero-image':
-          "url('https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601482034/oscar-willow-khan/hero_awusmu.wdp')",
+          "url('https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601482034/oscar-willow-khan/hero_awusmu.jp2')",
       }),
     },
   },
