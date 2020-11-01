@@ -73,7 +73,7 @@ const Hero = () => {
       </section>
       <motion.div
         initial={{ translateY: 0 }}
-        animate={{ translateY: -800 }}
+        animate={{ translateY: -1200 }}
         transition={{ delay: 4, duration: 1.5, type: 'spring', stiffness: 100 }}
         className='text-white font-body text-6xl bg-black fixed top-0 left-0 z-30 w-full h-full flex items-center justify-center'
       >
@@ -97,7 +97,7 @@ const Hero = () => {
       </motion.div>
       <motion.div
         initial={{ translateY: 0 }}
-        animate={{ translateY: -800 }}
+        animate={{ translateY: -1200 }}
         transition={{
           delay: 4.05,
           duration: 1.4,
