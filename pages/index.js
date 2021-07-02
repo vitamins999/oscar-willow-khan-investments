@@ -11,7 +11,7 @@ import Footer from '../components/Footer';
 const Home = () => {
   return (
     <Layout>
-      <main className='absolute top-0 bg-normal-bg'>
+      <main className='absolute top-0 bg-normal-bg w-full'>
         <Hero />
         <Services />
         <Tech />

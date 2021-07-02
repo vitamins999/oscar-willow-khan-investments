@@ -1,13 +1,11 @@
+import Image from 'next/image';
+
 const Footer = () => {
   return (
     <footer className='text-gray-700 body-font relative bg-white'>
       <div className='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
         <p className='flex title-font font-medium items-center md:justify-start justify-center text-gray-900'>
-          <img
-            className='w-8'
-            src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/favicon_jd3qu5.png'
-            alt='logo'
-          />
+          <Image width={32} height={32} src='/favicon.webp' alt='logo' />
           <span className='ml-3 text-md tracking-wide'>
             Oscar, Willow & Khan
           </span>
@@ -24,7 +22,7 @@ const Footer = () => {
             Generated Photos
           </a>
         </p>
-        <span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
+        <span className='flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
           <p className='text-gray-900 hover:text-gray-700 transition duration-200 ease-in-out cursor-pointer'>
             <svg
               fill='currentColor'

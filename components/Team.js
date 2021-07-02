@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Team = () => {
   return (
     <section id='team' className='text-gray-700 body-font bg-white'>
@@ -13,11 +15,13 @@ const Team = () => {
         <div className='flex flex-wrap -m-2'>
           <div className='p-2 lg:w-1/3 md:w-1/2 w-full'>
             <div className='h-full flex items-center border-gray-200 border p-4 rounded-lg'>
-              <img
-                alt='team'
-                className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639171/oscar-willow-khan/team/man8_txp9o0.webp'
-              />
+              <div className='relative w-16 h-16 bg-gray-100 flex-shrink-0 rounded-full mr-4'>
+                <Image
+                  src='/team/man8.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
                   Holden Oscar
@@ -28,11 +32,13 @@ const Team = () => {
           </div>
           <div className='p-2 lg:w-1/3 md:w-1/2 w-full'>
             <div className='h-full flex items-center border-gray-200 border p-4 rounded-lg'>
-              <img
-                alt='team'
-                className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man1_p6i683.webp'
-              />
+              <div className='relative w-16 h-16 bg-gray-100 flex-shrink-0 rounded-full mr-4'>
+                <Image
+                  src='/team/man1.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
                   James Willow
@@ -43,11 +49,13 @@ const Team = () => {
           </div>
           <div className='p-2 lg:w-1/3 md:w-1/2 w-full'>
             <div className='h-full flex items-center border-gray-200 border p-4 rounded-lg'>
-              <img
-                alt='team'
-                className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639171/oscar-willow-khan/team/woman1_rhavx3.webp'
-              />
+              <div className='relative w-16 h-16 bg-gray-100 flex-shrink-0 rounded-full mr-4'>
+                <Image
+                  src='/team/woman1.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
                   Amanda Khan
@@ -58,11 +66,13 @@ const Team = () => {
           </div>
           <div className='p-2 lg:w-1/3 md:w-1/2 w-full'>
             <div className='h-full flex items-center border-gray-200 border p-4 rounded-lg'>
-              <img
-                alt='team'
-                className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man3_zj7huq.webp'
-              />
+              <div className='relative w-16 h-16 bg-gray-100 flex-shrink-0 rounded-full mr-4'>
+                <Image
+                  src='/team/man3.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
                   John Chase
@@ -73,11 +83,13 @@ const Team = () => {
           </div>
           <div className='p-2 lg:w-1/3 md:w-1/2 w-full'>
             <div className='h-full flex items-center border-gray-200 border p-4 rounded-lg'>
-              <img
-                alt='team'
-                className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man5_hkt1jt.webp'
-              />
+              <div className='relative w-16 h-16 bg-gray-100 flex-shrink-0 rounded-full mr-4'>
+                <Image
+                  src='/team/man5.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
                   Bill Martins
@@ -88,11 +100,13 @@ const Team = () => {
           </div>
           <div className='p-2 lg:w-1/3 md:w-1/2 w-full'>
             <div className='h-full flex items-center border-gray-200 border p-4 rounded-lg'>
-              <img
-                alt='team'
-                className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man6_iuamlc.webp'
-              />
+              <div className='relative w-16 h-16 bg-gray-100 flex-shrink-0 rounded-full mr-4'>
+                <Image
+                  src='/team/man6.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
                   Boris Sykes
@@ -103,11 +117,13 @@ const Team = () => {
           </div>
           <div className='p-2 lg:w-1/3 md:w-1/2 w-full'>
             <div className='h-full flex items-center border-gray-200 border p-4 rounded-lg'>
-              <img
-                alt='team'
-                className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639171/oscar-willow-khan/team/woman2_t3gq7g.webp'
-              />
+              <div className='relative w-16 h-16 bg-gray-100 flex-shrink-0 rounded-full mr-4'>
+                <Image
+                  src='/team/woman2.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
                   Cordelia Banks
@@ -118,11 +134,13 @@ const Team = () => {
           </div>
           <div className='p-2 lg:w-1/3 md:w-1/2 w-full'>
             <div className='h-full flex items-center border-gray-200 border p-4 rounded-lg'>
-              <img
-                alt='team'
-                className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man2_ybj8ax.webp'
-              />
+              <div className='relative w-16 h-16 bg-gray-100 flex-shrink-0 rounded-full mr-4'>
+                <Image
+                  src='/team/man2.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
                   Bruce Williams
@@ -133,11 +151,13 @@ const Team = () => {
           </div>
           <div className='p-2 lg:w-1/3 md:w-1/2 w-full'>
             <div className='h-full flex items-center border-gray-200 border p-4 rounded-lg'>
-              <img
-                alt='team'
-                className='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639171/oscar-willow-khan/team/man9_ozzrcr.webp'
-              />
+              <div className='relative w-16 h-16 bg-gray-100 flex-shrink-0 rounded-full mr-4'>
+                <Image
+                  src='/team/man9.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <div className='flex-grow'>
                 <h2 className='text-gray-900 title-font font-semibold'>
                   Stephen Cohen

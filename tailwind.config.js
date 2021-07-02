@@ -23,8 +23,7 @@ module.exports = {
         108: '27rem',
       },
       backgroundImage: (theme) => ({
-        'hero-image':
-          "url('https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601482034/oscar-willow-khan/hero_awusmu.jpg')",
+        'hero-image': "url('/hero.jpg')",
       }),
     },
   },
