@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Testimonials = () => {
   return (
     <section id='testimonials' className='text-gray-300 body-font bg-normal-bg'>
@@ -13,17 +15,19 @@ const Testimonials = () => {
         <div className='flex flex-wrap -m-4'>
           <div className='lg:w-1/3 lg:mb-0 mb-6 p-4'>
             <div className='h-full text-center'>
-              <img
-                alt='testimonial'
-                className='w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639171/oscar-willow-khan/team/woman3_y1ikp5.webp'
-              />
+              <div className='relative w-20 h-20 mb-8 rounded-full inline-block border-2 border-gray-200 bg-gray-100'>
+                <Image
+                  src='/team/woman3.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <p className='leading-relaxed'>
                 Needless to say I am extremely satisfied with the results. I
                 have gotten at least 50 times the value from Oscar, Willow and
                 Khan. I just can't get enough of their incredible service. I
                 want to get a T-Shirt with Oscar, Willow and Khan Investments on
-                it so I can show it off to everyone. It's all good.
+                it so I can show it off to everyone.
               </p>
               <span className='inline-block h-1 w-10 rounded bg-indigo-300 mt-6 mb-4'></span>
               <h2 className='text-gray-300 font-medium title-font tracking-wider text-sm'>
@@ -34,11 +38,13 @@ const Testimonials = () => {
           </div>
           <div className='lg:w-1/3 lg:mb-0 mb-6 p-4'>
             <div className='h-full text-center'>
-              <img
-                alt='testimonial'
-                className='w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man5_hkt1jt.webp'
-              />
+              <div className='relative w-20 h-20 mb-8 rounded-full inline-block border-2 border-gray-200 bg-gray-100'>
+                <Image
+                  src='/team/man5.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <p className='leading-relaxed'>
                 I would like to personally thank you for your outstanding
                 product. Nice work on your investments. Best. Product. Ever!
@@ -55,11 +61,13 @@ const Testimonials = () => {
           </div>
           <div className='lg:w-1/3 lg:mb-0 p-4'>
             <div className='h-full text-center'>
-              <img
-                alt='testimonial'
-                className='w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100'
-                src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639172/oscar-willow-khan/team/man4_jbnvos.webp'
-              />
+              <div className='relative w-20 h-20 mb-8 rounded-full inline-block border-2 border-gray-200 bg-gray-100'>
+                <Image
+                  src='/team/man4.webp'
+                  layout='fill'
+                  className='object-cover object-center rounded-full'
+                />
+              </div>
               <p className='leading-relaxed'>
                 I am so pleased with this product. Since I invested in Oscar,
                 Willow & Khan's services, I made over 100,000 pounds profits. We

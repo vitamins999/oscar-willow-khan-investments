@@ -1,23 +1,11 @@
+import Image from 'next/image';
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 
 const Tech = () => {
   const [step, setStep] = useState(1);
 
-  const stepVariant = {
-    hide: {
-      opacity: 0,
-    },
-    show: {
-      opacity: 1,
-      transition: {
-        duration: 1.5,
-      },
-    },
-  };
-
   return (
-    <section id='tech' className='text-gray-300 font-body bg-normal-bg'>
+    <section id='tech' className='text-gray-300 font-body bg-normal-bg pb-5'>
       <div className='container px-5 py-24 mx-auto flex flex-wrap flex-col'>
         <div className='flex flex-wrap w-full mb-20'>
           <div className='lg:w-1/2 w-full mb-6 lg:mb-0'>
@@ -116,13 +104,15 @@ const Tech = () => {
           </button>
         </div>
         {step === 1 && (
-          <motion.div variants={stepVariant} initial='hide' animate='show'>
-            <img
-              className='xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded'
-              alt='hero'
-              loading='lazy'
-              src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/tech1_jvu1s3.webp'
-            />
+          <div>
+            <div className='xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 overflow-hidden rounded'>
+              <Image
+                src='/tech1.webp'
+                height={400}
+                width={600}
+                className='rounded object-cover object-center'
+              />
+            </div>
             <div className='flex flex-col text-center w-full'>
               <h1 className='text-xl font-medium title-font mb-4 text-gray-300'>
                 STEP 1: Web Scraping
@@ -134,38 +124,41 @@ const Tech = () => {
                 global database, updated every 20 seconds.
               </p>
             </div>
-          </motion.div>
+          </div>
         )}
         {step === 2 && (
-          <motion.div variants={stepVariant} initial='hide' animate='show'>
-            <img
-              className='xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded'
-              alt='hero'
-              loading='lazy'
-              src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/tech2_rpfhqk.webp'
-            />
+          <div>
+            <div className='xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 overflow-hidden rounded'>
+              <Image
+                src='/tech2.webp'
+                height={400}
+                width={600}
+                className='rounded object-cover object-center'
+              />
+            </div>
             <div className='flex flex-col text-center w-full'>
               <h1 className='text-xl font-medium title-font mb-4 text-gray-300'>
                 STEP 2: Modeling
               </h1>
               <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
-                A one of a kind, sophisticated A.I., that we built from the
-                ground up, monitors the database for changes. It then uses these
-                changes to update advanced models of each and every business
-                within its records. If a new business is monitored, a new model
-                is created.
+                A one of a kind, sophisticated A.I., built from the ground up,
+                monitors the database for changes. It uses these changes to
+                update advanced models of every business within its records. If
+                a new business is monitored, a new model is created.
               </p>
             </div>
-          </motion.div>
+          </div>
         )}
         {step === 3 && (
-          <motion.div variants={stepVariant} initial='hide' animate='show'>
-            <img
-              className='xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded'
-              alt='hero'
-              loading='lazy'
-              src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/tech3_ydsuw9.webp'
-            />
+          <div>
+            <div className='xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 overflow-hidden rounded'>
+              <Image
+                src='/tech3.webp'
+                height={400}
+                width={600}
+                className='rounded object-cover object-center'
+              />
+            </div>
             <div className='flex flex-col text-center w-full'>
               <h1 className='text-xl font-medium title-font mb-4 text-gray-300'>
                 STEP 3: AI Data Analysis
@@ -177,16 +170,18 @@ const Tech = () => {
                 future changes in stocketmarket behaviour.
               </p>
             </div>
-          </motion.div>
+          </div>
         )}
         {step === 4 && (
-          <motion.div variants={stepVariant} initial='hide' animate='show'>
-            <img
-              className='xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded'
-              alt='hero'
-              loading='lazy'
-              src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/tech4_wsxbza.webp'
-            />
+          <div>
+            <div className='xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 overflow-hidden rounded'>
+              <Image
+                src='/tech4.webp'
+                height={400}
+                width={600}
+                className='rounded object-cover object-center'
+              />
+            </div>
             <div className='flex flex-col text-center w-full'>
               <h1 className='text-xl font-medium title-font mb-4 text-gray-300'>
                 STEP 4: Re-invest or Cash Out
@@ -194,12 +189,11 @@ const Tech = () => {
               <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
                 These changes and future predictions are then monitored, through
                 further A/B testing, to ascertain whether it is more financially
-                beneficial to re-invest the money in another business, based on
-                that business's model, or cash out at the predicted high point
-                and put that money straight in your pocket.
+                beneficial to re-invest the money in another business, or cash
+                out at the predicted high point.
               </p>
             </div>
-          </motion.div>
+          </div>
         )}
       </div>
     </section>

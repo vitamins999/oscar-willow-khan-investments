@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
@@ -59,11 +60,7 @@ const NavBar = () => {
         }`}
       >
         <p className='flex title-font font-medium items-center text-gray-300 mb-4 md:mb-0'>
-          <img
-            className='w-8'
-            src='https://res.cloudinary.com/dow1i4bxf/image/upload/q_auto/v1601639119/oscar-willow-khan/favicon_jd3qu5.png'
-            alt='logo'
-          />
+          <Image width={32} height={32} src='/favicon.webp' alt='logo' />
           <span className='ml-3 text-lg sm:text-xl tracking-wide'>
             Oscar, Willow & Khan
           </span>
@@ -73,7 +70,7 @@ const NavBar = () => {
             to='home'
             smooth={true}
             duration={1000}
-            className={`mr-5 hover:text-gray-500 transition duration-200 ease-in-out cursor-pointer ${
+            className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
               currentSection === 'home' ? 'border-b border-indigo-500' : null
             }`}
           >
@@ -83,7 +80,7 @@ const NavBar = () => {
             to='services'
             smooth={true}
             duration={1000}
-            className={`mr-5 hover:text-gray-500 transition duration-200 ease-in-out cursor-pointer ${
+            className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
               currentSection === 'services'
                 ? 'border-b border-indigo-500'
                 : null
@@ -95,7 +92,7 @@ const NavBar = () => {
             to='tech'
             smooth={true}
             duration={1000}
-            className={`mr-5 hover:text-gray-500 transition duration-200 ease-in-out cursor-pointer ${
+            className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
               currentSection === 'tech' ? 'border-b border-indigo-500' : null
             }`}
           >
@@ -105,7 +102,7 @@ const NavBar = () => {
             to='team'
             smooth={true}
             duration={1000}
-            className={`mr-5 hover:text-gray-500 transition duration-200 ease-in-out cursor-pointer ${
+            className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
               currentSection === 'team' ? 'border-b border-indigo-500' : null
             }`}
           >
@@ -115,7 +112,7 @@ const NavBar = () => {
             to='testimonials'
             smooth={true}
             duration={1000}
-            className={`mr-5 hover:text-gray-500 transition duration-200 ease-in-out cursor-pointer ${
+            className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
               currentSection === 'testimonials'
                 ? 'border-b border-indigo-500'
                 : null
@@ -127,7 +124,7 @@ const NavBar = () => {
             to='pricing'
             smooth={true}
             duration={1000}
-            className={`mr-5 hover:text-gray-500 transition duration-200 ease-in-out cursor-pointer ${
+            className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
               currentSection === 'prices' ? 'border-b border-indigo-500' : null
             }`}
           >
@@ -137,7 +134,7 @@ const NavBar = () => {
             to='contact'
             smooth={true}
             duration={1000}
-            className='mr-5 hover:text-gray-500 hover:border-gray-500 transition duration-200 ease-in-out border-2 py-2 px-6 rounded-full cursor-pointer hidden sm:block'
+            className='mr-5 hover:text-gray-400 hover:border-gray-400 transition duration-200 ease-in-out border-2 py-2 px-6 rounded-full cursor-pointer hidden sm:block'
           >
             Contact Us
           </Link>

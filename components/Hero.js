@@ -21,7 +21,7 @@ const Hero = () => {
       translateY: 100,
     },
     show: {
-      translateY: 0,
+      translateY: -5,
     },
   };
 
@@ -29,19 +29,19 @@ const Hero = () => {
     <>
       <section
         id='home'
-        className='h-screen w-screen text-gray-300 font-body bg-hero-image bg-no-repeat bg-center bg-cover'
+        className='h-screen w-full text-gray-300 font-body bg-hero-image bg-no-repeat bg-center bg-cover'
       >
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 5, duration: 1 }}
-          className='container mx-auto flex px-5 pb-24 pt-48 md:flex-row flex-col items-center'
+          className='container mx-auto flex px-5 pb-24 pt-72 md:flex-row flex-col items-center'
         >
-          <div className='lg:w-2/3 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
-            <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-300'>
-              Making Your Money <br className='hidden lg:inline-block' />
-              Make You Rich{' '}
-            </h1>
+          <div className=' max-w-4xl lg:w-2/3 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
+            <div className='title-font sm:text-4xl lg:text-3xl xl:text-5xl mb-10 font-medium text-gray-300 leading-loose'>
+              <h1 className=' leading-normal'>Making Your Money</h1>
+              <h1> Make You Rich</h1>
+            </div>
             <p className='mb-5 leading-relaxed'>
               <span className='font-semibold text-gray-400 italic'>
                 Oscar, Willow & Khan
