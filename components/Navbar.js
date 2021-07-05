@@ -55,23 +55,25 @@ const NavBar = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 5, duration: 1 }}
-        className={`fixed transition bg-normal-bg md:bg-transparent duration-200 w-screen px-24 flex flex-wrap p-5 flex-col md:flex-row items-center ${
+        className={`md:fixed transition bg-normal-bg iPad:bg-normal-bg iPadPro:bg-normal-bg iPadWidescreen:bg-normal-bg md:bg-transparent duration-200 w-screen md:px-24 px-0 flex flex-wrap md:p-5 p-3 iPad:p-5 iPadWidescreen:p-5 flex-col md:flex-row items-center iPadPro:justify-center iPad:justify-center iPadWidescreen:justify-center ${
           isScrolling ? 'md:bg-normal-bg' : null
         }`}
       >
-        <p className='flex title-font font-medium items-center text-gray-300 mb-4 md:mb-0'>
+        <div className='flex title-font font-medium items-center text-gray-300 md:mb-0 iPad:mb-2'>
           <Image width={32} height={32} src='/favicon.webp' alt='logo' />
           <span className='ml-3 text-lg sm:text-xl tracking-wide'>
             Oscar, Willow & Khan
           </span>
-        </p>
-        <nav className='md:ml-auto flex flex-wrap items-center justify-center text-sm sm:text-base'>
+        </div>
+        <nav className='md:ml-auto hidden iPad:ml-0 iPadWidescreen:ml-0 md:flex flex-wrap items-center justify-center iPad:text-xs text-sm sm:text-base'>
           <Link
             to='home'
             smooth={true}
             duration={1000}
             className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
-              currentSection === 'home' ? 'border-b border-indigo-500' : null
+              currentSection === 'home'
+                ? 'border-b border-indigo-500 iPad:border-0 iPadWidescreen:border-0 iPadPro:border-0'
+                : null
             }`}
           >
             Home
@@ -82,7 +84,7 @@ const NavBar = () => {
             duration={1000}
             className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
               currentSection === 'services'
-                ? 'border-b border-indigo-500'
+                ? 'border-b border-indigo-500 iPad:border-0 iPadWidescreen:border-0 iPadPro:border-0'
                 : null
             }`}
           >
@@ -93,7 +95,9 @@ const NavBar = () => {
             smooth={true}
             duration={1000}
             className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
-              currentSection === 'tech' ? 'border-b border-indigo-500' : null
+              currentSection === 'tech'
+                ? 'border-b border-indigo-500 iPad:border-0 iPadWidescreen:border-0 iPadPro:border-0'
+                : null
             }`}
           >
             How It Works
@@ -103,7 +107,9 @@ const NavBar = () => {
             smooth={true}
             duration={1000}
             className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
-              currentSection === 'team' ? 'border-b border-indigo-500' : null
+              currentSection === 'team'
+                ? 'border-b border-indigo-500 iPad:border-0 iPadWidescreen:border-0 iPadPro:border-0'
+                : null
             }`}
           >
             Who We Are
@@ -114,7 +120,7 @@ const NavBar = () => {
             duration={1000}
             className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
               currentSection === 'testimonials'
-                ? 'border-b border-indigo-500'
+                ? 'border-b border-indigo-500 iPad:border-0 iPadWidescreen:border-0 iPadPro:border-0'
                 : null
             }`}
           >
@@ -125,7 +131,9 @@ const NavBar = () => {
             smooth={true}
             duration={1000}
             className={`mr-5 hover:text-gray-400 transition duration-200 ease-in-out cursor-pointer ${
-              currentSection === 'prices' ? 'border-b border-indigo-500' : null
+              currentSection === 'prices'
+                ? 'border-b border-indigo-500 iPad:border-0 iPadWidescreen:border-0 iPadPro:border-0'
+                : null
             }`}
           >
             Prices
@@ -134,7 +142,7 @@ const NavBar = () => {
             to='contact'
             smooth={true}
             duration={1000}
-            className='mr-5 hover:text-gray-400 hover:border-gray-400 transition duration-200 ease-in-out border-2 py-2 px-6 rounded-full cursor-pointer hidden sm:block'
+            className='mr-5 hover:text-gray-400 hover:border-gray-400 transition duration-200 ease-in-out border-2 iPad:border-0 iPadWidescreen:border-0 iPadPro:border-0 py-2 px-6 iPad:px-0 iPadWidescreen:px-0 rounded-full cursor-pointer hidden sm:block'
           >
             Contact Us
           </Link>

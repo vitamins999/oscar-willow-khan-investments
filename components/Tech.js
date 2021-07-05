@@ -142,9 +142,9 @@ const Tech = () => {
               </h1>
               <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
                 A one of a kind, sophisticated A.I., built from the ground up,
-                monitors the database for changes. It uses these changes to
-                update advanced models of every business within its records. If
-                a new business is monitored, a new model is created.
+                monitors for database changes. It uses these changes to update
+                advanced models of every business within its records. If a new
+                business is monitored, a new model is created.
               </p>
             </div>
           </div>
