@@ -28,7 +28,7 @@ const Services = () => {
               <h3 className='text-lg text-gray-900 font-medium title-font mb-4 tracking-tight'>
                 ISA & Junior ISA
               </h3>
-              <p className='leading-relaxed text-base mb-4'>
+              <p className='leading-relaxed text-base mb-4 2xl:pt-0 xl:pt-7'>
                 Tax-free interest payments, so you could get more for your
                 money.
               </p>
@@ -106,8 +106,9 @@ const Services = () => {
               <h3 className='text-lg text-gray-900 font-medium title-font mb-4 tracking-tight'>
                 Offshore Investments
               </h3>
-              <p className='leading-relaxed text-base mb-4'>
-                We also offer funds domiciled in offshore countries.
+              <p className='leading-relaxed text-base mb-4 2xl:pt-0 xl:pt-7'>
+                We also offer services for funds domiciled in offshore
+                countries.
               </p>
               <p className='leading-relaxed text-base'>
                 This allows for tax-free income, reinvestment of gains, tax-free

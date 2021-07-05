@@ -27,7 +27,7 @@ const Contact = () => {
         </h1>
         <div className='h-1 w-20 bg-indigo-300 rounded'></div>
       </div>
-      <div className='container px-5 pt-5 pb-24 mx-auto flex'>
+      <div className='container px-5 pt-5 pb-24 mx-auto flex lg:flex-row flex-col iPad:flex-row'>
         <div className='lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative'>
           <iframe
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.454224706977!2d0.6553887157239779!3d51.54156947964069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8da2664423a4f%3A0xcc4e6367cdaf8830!2sBroadway%2C%20Leigh-on-Sea%2C%20Southend-on-Sea%2C%20Leigh-on-Sea!5e0!3m2!1sen!2suk!4v1600967799069!5m2!1sen!2suk'

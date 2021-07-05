@@ -35,14 +35,16 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 5, duration: 1 }}
-          className='container mx-auto flex px-5 pb-24 pt-72 md:flex-row flex-col items-center'
+          className='container mx-auto iPad:pt-40 iPadPro:pt-64 iPadWidescreen:pt-40 flex px-5 pb-24 2xl:pt-72 xl:pt-48 pt-20 md:flex-row iPad:flex-col iPadPro:flex-col flex-col items-center'
         >
-          <div className=' max-w-4xl lg:w-2/3 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
-            <div className='title-font sm:text-4xl lg:text-3xl xl:text-5xl mb-10 font-medium text-gray-300 leading-loose'>
-              <h1 className=' leading-normal'>Making Your Money</h1>
+          <div className='max-w-4xl iPad:w-full iPadPro:w-full iPad:pr-0 iPadPro:pr-0 lg:w-2/3 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start iPad:items-center iPadPro:items-center md:text-left mb-16 md:mb-0 iPad:text-center iPadPro:text-center items-center text-center'>
+            <div className='title-font iPadPro:text-5xl text-3xl sm:text-4xl lg:text-3xl xl:text-5xl mb-4 md:mb-10 font-medium text-gray-300 leading-loose'>
+              <h1 className='md:leading-normal leading-none'>
+                Making Your Money
+              </h1>
               <h1> Make You Rich</h1>
             </div>
-            <p className='mb-5 leading-relaxed'>
+            <p className='mb-5 leading-relaxed md:text-base text-xs iPad:w-3/4 iPadPro:w-3/4'>
               <span className='font-semibold text-gray-400 italic'>
                 Oscar, Willow & Khan
               </span>{' '}
@@ -73,9 +75,9 @@ const Hero = () => {
       </section>
       <motion.div
         initial={{ translateY: 0 }}
-        animate={{ translateY: -1200 }}
+        animate={{ translateY: -1400 }}
         transition={{ delay: 4, duration: 1.5, type: 'spring', stiffness: 100 }}
-        className='text-white font-body text-6xl bg-black fixed top-0 left-0 z-30 w-full h-full flex items-center justify-center'
+        className='text-white font-body text-4xl px-10 iPad:px-0 iPadWidescreen:px-0 iPadPro:px-0 iPadProWidescreen:px-0 md:text-6xl iPad:text-6xl iPadWidescreen:text-6xl iPadPro:text-6xl iPadProWidescreen:text-6xl bg-black fixed top-0 left-0 z-30 w-full h-full flex items-center justify-center'
       >
         <motion.div variants={textVariant} initial='hidden' animate='show'>
           <h1 className='bg-black overflow-hidden'>
@@ -97,7 +99,7 @@ const Hero = () => {
       </motion.div>
       <motion.div
         initial={{ translateY: 0 }}
-        animate={{ translateY: -1200 }}
+        animate={{ translateY: -1400 }}
         transition={{
           delay: 4.05,
           duration: 1.4,
