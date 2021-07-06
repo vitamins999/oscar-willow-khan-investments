@@ -59,7 +59,7 @@ const NavBar = () => {
           isScrolling ? 'md:bg-normal-bg' : null
         }`}
       >
-        <div className='flex title-font font-medium items-center text-gray-300 md:mb-0 iPad:mb-2'>
+        <div className='flex font-heading font-medium items-center text-gray-300 md:mb-0 iPad:mb-2'>
           <Image width={32} height={32} src='/favicon.webp' alt='logo' />
           <span className='ml-3 text-lg sm:text-xl tracking-wide'>
             Oscar, Willow & Khan

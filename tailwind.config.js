@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ['Montserrat'],
+        heading: ['Playfair Display'],
       },
       colors: {
         'light-black': '#27282C',
