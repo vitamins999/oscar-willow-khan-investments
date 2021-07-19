@@ -6,7 +6,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import Pricing from '../../components/Pricing';
 
 describe('Pricing Component', () => {
-  it('should change prices to annual prices', () => {
+  it('should change prices to annual prices on click of annual prices button', () => {
     render(<Pricing />);
     const buttonElement = screen.getByRole('button', { name: /Annually/i });
     fireEvent.click(buttonElement);
@@ -15,7 +15,7 @@ describe('Pricing Component', () => {
     expect(spanElement.length).toBe(3);
   });
 
-  it('should change prices to back monthly prices after selecting annual prices', () => {
+  it('should change prices back to monthly prices when annual prices button is clicked and then monthly prices button is clicked', () => {
     render(<Pricing />);
     const buttonElementAnnual = screen.getByRole('button', {
       name: /Annually/i,
