@@ -19,6 +19,7 @@ const Contact = () => {
   return (
     <section
       id='contact'
+      data-testid='contact'
       className='text-gray-700 body-font relative bg-normal-bg py-20'
     >
       <div className='container px-5 mx-auto py-10'>
@@ -110,6 +111,7 @@ const Contact = () => {
             Send
           </button>
           <p
+            data-testid='form-submit-message'
             className={`text-xs mt-3 ${
               !name ? 'text-gray-700' : 'text-indigo-700'
             }`}

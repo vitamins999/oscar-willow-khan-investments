@@ -2,7 +2,11 @@ import Image from 'next/image';
 
 const Services = () => {
   return (
-    <section id='services' className='text-gray-700 body-font bg-white'>
+    <section
+      id='services'
+      data-testid='services'
+      className='text-gray-700 body-font bg-white'
+    >
       <div className='container px-5 pt-24 pb-40 mx-auto'>
         <div className='flex flex-wrap w-full mb-20'>
           <div className='lg:w-1/2 w-full mb-6 lg:mb-0'>

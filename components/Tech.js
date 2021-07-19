@@ -5,7 +5,11 @@ const Tech = () => {
   const [step, setStep] = useState(1);
 
   return (
-    <section id='tech' className='text-gray-300 font-body bg-normal-bg pb-5'>
+    <section
+      id='tech'
+      data-testid='tech'
+      className='text-gray-300 font-body bg-normal-bg pb-5'
+    >
       <div className='container px-5 py-24 mx-auto flex flex-wrap flex-col'>
         <div className='flex flex-wrap w-full mb-20'>
           <div className='lg:w-1/2 w-full mb-6 lg:mb-0'>

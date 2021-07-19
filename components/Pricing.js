@@ -6,6 +6,7 @@ const Pricing = () => {
   return (
     <section
       id='pricing'
+      data-testid='pricing'
       className='text-gray-700 body-font overflow-hidden bg-white'
     >
       <div className='container px-5 py-24 mx-auto'>
@@ -123,11 +124,17 @@ const Pricing = () => {
               <h1 className='text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200'>
                 {isMonthly ? <span>£38</span> : <span>£395</span>}
                 {isMonthly ? (
-                  <span className='text-lg ml-1 font-normal text-gray-700'>
+                  <span
+                    data-testid='span-monthly'
+                    className='text-lg ml-1 font-normal text-gray-700'
+                  >
                     /mo
                   </span>
                 ) : (
-                  <span className='text-lg ml-1 font-normal text-gray-700'>
+                  <span
+                    data-testid='span-yearly'
+                    className='text-lg ml-1 font-normal text-gray-700'
+                  >
                     /yr
                   </span>
                 )}
@@ -223,11 +230,17 @@ const Pricing = () => {
               <h1 className='text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200'>
                 {isMonthly ? <span>£56</span> : <span>£575</span>}
                 {isMonthly ? (
-                  <span className='text-lg ml-1 font-normal text-gray-700'>
+                  <span
+                    data-testid='span-monthly'
+                    className='text-lg ml-1 font-normal text-gray-700'
+                  >
                     /mo
                   </span>
                 ) : (
-                  <span className='text-lg ml-1 font-normal text-gray-700'>
+                  <span
+                    data-testid='span-yearly'
+                    className='text-lg ml-1 font-normal text-gray-700'
+                  >
                     /yr
                   </span>
                 )}
@@ -339,11 +352,17 @@ const Pricing = () => {
               <h1 className='text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200'>
                 {isMonthly ? <span>£72</span> : <span>£825</span>}
                 {isMonthly ? (
-                  <span className='text-lg ml-1 font-normal text-gray-700'>
+                  <span
+                    data-testid='span-monthly'
+                    className='text-lg ml-1 font-normal text-gray-700'
+                  >
                     /mo
                   </span>
                 ) : (
-                  <span className='text-lg ml-1 font-normal text-gray-700'>
+                  <span
+                    data-testid='span-yearly'
+                    className='text-lg ml-1 font-normal text-gray-700'
+                  >
                     /yr
                   </span>
                 )}

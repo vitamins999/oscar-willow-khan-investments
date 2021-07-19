@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   },
   "dependencies": {
     "autoprefixer": "^10.2.6",
@@ -18,6 +19,11 @@
     "react-scroll": "^1.8.1"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.0.6",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.2.4"
   }
