@@ -29,6 +29,7 @@ const Hero = () => {
     <>
       <section
         id='home'
+        data-testid='hero'
         className='h-screen w-full text-gray-300 font-body bg-hero-image bg-no-repeat bg-center bg-cover'
       >
         <motion.div

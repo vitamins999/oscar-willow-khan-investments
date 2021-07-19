@@ -50,7 +50,10 @@ const NavBar = () => {
   }, [currentSection]);
 
   return (
-    <header className='text-gray-300 font-body relative z-10'>
+    <header
+      data-testid='navbar'
+      className='text-gray-300 font-body relative z-10'
+    >
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

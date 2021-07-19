@@ -2,7 +2,10 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer className='text-gray-700 body-font relative bg-white'>
+    <footer
+      data-testid='footer'
+      className='text-gray-700 body-font relative bg-white'
+    >
       <div className='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
         <div className='flex font-heading font-medium items-center md:justify-start justify-center text-gray-900'>
           <Image width={32} height={32} src='/favicon.webp' alt='logo' />

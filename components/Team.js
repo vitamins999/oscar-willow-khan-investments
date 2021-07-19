@@ -2,7 +2,11 @@ import Image from 'next/image';
 
 const Team = () => {
   return (
-    <section id='team' className='text-gray-700 body-font bg-white'>
+    <section
+      id='team'
+      data-testid='team'
+      className='text-gray-700 body-font bg-white'
+    >
       <div className='container px-5 py-24 mx-auto'>
         <div className='flex flex-wrap w-full mb-20'>
           <div className='lg:w-1/2 w-full mb-6 lg:mb-0'>
